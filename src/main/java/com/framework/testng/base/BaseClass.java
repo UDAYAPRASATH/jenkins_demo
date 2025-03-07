@@ -22,6 +22,7 @@ public class BaseClass {
 		driver.findElement(By.id("password")).sendKeys("crmsfa");
 		driver.findElement(By.className("decorativeSubmit")).click();
 		driver.findElement(By.linkText("CRM/SFA")).click();
+		//note this line is modifed now will it work for git hub lets wait ans watch......
 		driver.findElement(By.linkText("Leads")).click();
 	}
 	
